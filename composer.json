@@ -1,0 +1,31 @@
+{
+    "name": "iaematt/cafeapi",
+    "description": "Biblioteca API para integração com o webservice do SaaS FSPHP",
+    "keywords": [
+        "FSPHP",
+        "UpInside",
+        "Matheus Bastos",
+        "SaaS",
+        "PHP",
+        "Full Stack"
+    ],
+    "homepage": "http://blogdomat.vercel.app",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matheus Bastos",
+            "email": "matheusbastos@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MatheusBastos\\CafeApi\\": "src"
+        }
+    }
+}
